@@ -49,7 +49,7 @@ There are a total of 4 (JSON) APIs that are to be used in this exercise:
 - This exercise is intended as a means to evaluate candidate's capacity to understand a problem statement and translate into functional code using common angular constructs. Hopefully, the brief is clear and we welcome you to call out any assumptions in the code comments, but if you feel there is insufficient information to complete the exercise, you can email: <angular_interview@anagramconsulting.com>
 - There's no right answer to this problem and with any coding, there is significant scope for personal style, so solve the problem the manner that bes suits you
 - Don't worry about the aesthetics, the mark-up needs to be valid and usable but we don't care if it's ugly :smile:
-- Once you're done, zip the `src` directory of app and send it to <angular_interview@anagramconsulting.com> from an email address we can reach you at. Don't worry about the content of the mail, though if you can include your full (preferred) name in the body of the email, that would probably make things a little easier for us :smile:    
+- Once you're done, zip the `src` directory of app (+ any other files you may have added / edited...just *not* the node_modules directory!!) and send it to <angular_interview@anagramconsulting.com> from an email address we can reach you at. Don't worry about the content of the mail, though if you can include your full (preferred) name in the body of the email, that would probably make things a little easier for us :smile:    
 
 
 ## Development server
