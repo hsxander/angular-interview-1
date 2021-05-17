@@ -3,8 +3,8 @@
 ### Introduction
 
 - This interview challenge is offered in lieu of a technical interview. 
-- The exercise is expected to take no more that 1 hour to complete (...so roughly the same time as an interview) and can be done anytime after issue. If think it will take to significantly longer than 1 hour, then this role is probably not a good fit got you; 
-*which is by no means a reflection of a candidate's ability, just the nature of the role itself.* 
+- The exercise is expected to take no more that 1 hour to complete (...so roughly the same time as an interview) and can be done anytime after issue. 
+  - If you think it will take to significantly longer than 1 hour, then this role is probably not a good fit for you, *which is by no means a reflection of a your ability, but a reflection of the role and the archetype we are looking to match* 
 - The requirements should be fairly explicit and easy to understand, but if there are any points requiring clarifications you can email: 
 <angular_interview@anagramconsulting.com>
 
@@ -16,23 +16,23 @@ It was generated using the  [Angular CLI](https://github.com/angular/angular-cli
 ## Requirements
 
 ### Objective:
-- Create a simple catalogue based ordering application that allows users to order parts from a selected catalogue
+*Create a simple ordering application that allows users to order parts from a selected catalogue*
 
 ### User Journey
 Markup :
 - The user selects the catalogue from which they wish to order
 - From a list of parts included in the selected calendar they select the parts they wish to order. 
-  - The list presented to the user comprises the **name**, **description**, **availability** (in_stock) and **price** of each item 
+  - The list presented to the user comprises the **name**, **description**, **availability** (`in_stock`) and **price** of each item 
   - The list also includes an input for each item that is used to add /remove the item from the order e.g. a checkbox, and is *disabled* (and unset) if the item is not in_stock
-  - Included within the UI is a aslo running 'Total' that sums the price(s) of the added item(s) and is updated when items are added to or removed from the order
+  - Included within the UI is aslo a running `Total` that sums the price(s) of the added item(s) and is updated when items are added to or removed from the order
 - Once the user has selected the required parts, the can submit the order and get a confirmation number that can be presented in the UI
 
 ### APIs
 There are a total of 4 (JSON) APIs that are to be used in this exercise:
 1. GET /api/catalogue - returns  a list of the the catalogues available i.e. https://test-app.ngrmdgtl.com/api/catalogue
-2. GET /api/catalogue/<ID>/product - returns a list of products available in the catalogue <ID> e.g. https://test-app.ngrmdgtl.com/api/catalogue/1/product
-3. GET /api/catalogue/<ID>/price - returns a price-list for the products available in the catalogue <ID> e.g. https://test-app.ngrmdgtl.com/api/catalogue/1/price
-4. POST /api/catalogue/<ID>/order - is the endpoint to create new orders the expected input is as follows: https://test-app.ngrmdgtl.com/api/catalogue/1/order
+2. GET /api/catalogue/`<CAT-ID>`/product - returns a list of products available in the catalogue <CAT-ID> e.g. https://test-app.ngrmdgtl.com/api/catalogue/1/product
+3. GET /api/catalogue/`<CAT-ID>`/price - returns a price-list for the products available in the catalogue <CAT-ID> e.g. https://test-app.ngrmdgtl.com/api/catalogue/1/price
+4. POST /api/catalogue/`<CAT-ID>`/order - is the endpoint to create new orders the expected input is as follows: https://test-app.ngrmdgtl.com/api/catalogue/1/order
 ```javascript
 {
     "items" :
@@ -53,7 +53,7 @@ There are a total of 4 (JSON) APIs that are to be used in this exercise:
 - This exercise is intended as a means to evaluate candidate's capacity to understand a problem statement and translate into functional code using common angular constructs. Hopefully, the brief is clear and we welcome you to call out any assumptions in the code comments, but if you feel there is insufficient information to complete the exercise, you can email: <angular_interview@anagramconsulting.com>
 - There's no right answer to this problem and with any coding, there is significant scope for personal style, so solve the problem the manner that bes suits you
 - Don't worry about the aesthetics, the mark-up needs to be valid and usable but we don't care if it's ugly. The finished app may look something like the below:
-![alt text](https://github.com/hsxander/angular-interview-1/blob/main/src/assets/interview-app.png?raw=true)
+![alt text](https://github.com/hsxander/angular-interview-1/blob/main/src/assets/interview-app-example.png?raw=true)
 
 - Once you're done, zip the `src` directory of app (+ any other files you may have added / edited...just *not* the node_modules directory!!) and send it to <angular_interview@anagramconsulting.com> from an email address we can reach you at. Don't worry about the content of the mail, though if you can include your full (preferred) name in the body of the email, that would probably make things a little easier for us :smile:    
 
