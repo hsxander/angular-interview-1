@@ -32,7 +32,7 @@ There are a total of 4 (JSON) APIs that are to be used in this exercise:
 1. GET /api/catalogue - returns  a list of the the catalogues available i.e. https://test-app.ngrmdgtl.com/api/catalogue
 2. GET /api/catalogue/<ID>/product - returns a list of products available in the catalogue <ID> e.g. https://test-app.ngrmdgtl.com/api/catalogue/1/product
 3. GET /api/catalogue/<ID>/price - returns a price-list for the products available in the catalogue <ID> e.g. https://test-app.ngrmdgtl.com/api/catalogue/1/price
-4. POST /api/catalogue - is the endpoint to create new orders the expected input is as follows:
+4. POST /api/catalogue/<ID>/order - is the endpoint to create new orders the expected input is as follows: https://test-app.ngrmdgtl.com/api/catalogue/1/order
 ```javascript
 {
     "items" :
