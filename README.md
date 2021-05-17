@@ -19,6 +19,11 @@ It was generated using the  [Angular CLI](https://github.com/angular/angular-cli
 - Create a simple catalogue based ordering application that allows users to order parts from a selected catalogue
 
 ### User Journey
+ Markup : 1. A numbered list
+              1. A nested numbered list
+              2. Which is numbered
+          2. Which is numbered
+
 Markup : 1. The user selects the catalogue from which they wish to order
 2. From a list of parts included in the selected calendar they select the parts they wish to order. 
   1. The list presented to the user comprises the name, description, availability (in_stock) and price of each item 
