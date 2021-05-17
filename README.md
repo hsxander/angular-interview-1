@@ -64,18 +64,14 @@ There is a proxy config included in the template `proxy.conf.js` which should pr
 
 ## Build
 
-*You should make sure tha app build, but no other build steps are required - don't worry about deploying the compiled code.*
+You should make sure tha app build, but no other build steps are required - don't worry about deploying the compiled code.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+*Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.*
 
 
 ## Running unit tests
 
-*Don't worry about comprensive testing, just ensure original tests pass and (if you have time) add 1 or 2 yourself to evidence basic knowledge of testing work flow.*
+Don't worry about comprensive testing, just ensure original tests pass and (if you have time) add 1 or 2 yourself to evidence basic knowledge of testing work flow.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+*Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).*
 
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
