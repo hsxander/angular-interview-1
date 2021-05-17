@@ -1,16 +1,17 @@
 # Anagram Interview Tests: Angular #1 Template
 
-
-*This repo is the template source for the Angular Interview Test.* 
-It was generated using the  [Angular CLI](https://github.com/angular/angular-cli) version 10.1.3.*
-
-#### Introduction
+### Introduction
 
 - This interview challenge is offered in lieu of a technical interview. 
 - The exercise is expected to take no more that 1 hour to complete (...so roughly the same time as an interview) and can be done anytime after issue. If think it will take to significantly longer than 1 hour, then this role is probably not a good fit got you; 
 *which is by no means a reflection of a candidate's ability, just the nature of the role itself.* 
 - The requirements should be fairly explicit and easy to understand, but if there are any points requiring clarifications you can email: 
 <angular_interview@anagramconsulting.com>
+
+
+*This repo is the template source for the Angular Interview Test.* 
+It was generated using the  [Angular CLI](https://github.com/angular/angular-cli) version 10.1.3.*
+
 
 ## Requirements
 
