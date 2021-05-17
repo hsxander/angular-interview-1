@@ -37,7 +37,7 @@ There are a total of 4 (JSON) APIs that are to be used in this exercise:
 {
     "items" :
         [
-            "product_id" : <PRODUCT_ID>,
+            <PRODUCT_ID>,
             ...
         ]
 }
