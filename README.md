@@ -19,9 +19,12 @@ It was generated using the  [Angular CLI](https://github.com/angular/angular-cli
 - Create a simple catalogue based ordering application that allows users to order parts from a selected catalogue
 
 ### User Journey
-1. The user selects the catalogue from which they wish to order
-2. From a list of parts included in the selected calendar they select the parts they wish to order. The list presented to the user comprises the name, description and price of each item and a 'Total' value in the UI is updated when items are added to or removed from the order
-3. Once the user has selected the required parts, the can submit the order and get a confirmation number that can be presented in the UI
+Markup: 1. The user selects the catalogue from which they wish to order
+2. From a list of parts included in the selected calendar they select the parts they wish to order. 
+1. The list presented to the user comprises the name, description, availability (in_stock) and price of each item 
+2. The list includes some input used to add /remove the item to / from the order e.g. a checkbox, which is disabled (and unset) if the item is not in_stock
+3. Included within the UI is a running 'Total' that sums the price(s) of the added item(s) and is updated when items are added to or removed from the order
+4. Once the user has selected the required parts, the can submit the order and get a confirmation number that can be presented in the UI
 
 ### APIs
 There are a total of 4 (JSON) APIs that are to be used in this exercise:
