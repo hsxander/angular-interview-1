@@ -10,7 +10,7 @@ It was generated using the  [Angular CLI](https://github.com/angular/angular-cli
 - The exercise is expected to take no more that 1 hour to complete (...so roughly the same time as an interview) and can be done anytime after issue. If think it will take to significantly longer than 1 hour, then this role is probably not a good fit got you; 
 *which is by no means a reflection of a candidate's ability, just the nature of the role itself.* 
 - The requirements should be fairly explicit and easy to understand, but if there are any points requiring clarifications you can email: 
-(mailto:angular_interview@anagramconsulting.com)<angular_interview@anagramconsulting.com>
+<angular_interview@anagramconsulting.com>
 
 ## Requirements
 
@@ -45,10 +45,10 @@ There are a total of 4 (JSON) APIs that are to be used in this exercise:
 }
 ````
 ### Notes for candidates
-- This exercise is intended as a means to evaluate candidate's capacity to understand a problem statement and translate into functional code using common angular constructs. Hopefully, the brief is clear and we welcome you to call out any assumptions in the code comments, but if you feel there is insufficient information to complete the exercise, you can email: (mailto:angular_interview@anagramconsulting.com)<angular_interview@anagramconsulting.com>
+- This exercise is intended as a means to evaluate candidate's capacity to understand a problem statement and translate into functional code using common angular constructs. Hopefully, the brief is clear and we welcome you to call out any assumptions in the code comments, but if you feel there is insufficient information to complete the exercise, you can email: <angular_interview@anagramconsulting.com>
 - There's no right answer to this problem and with any coding, there is significant scope for personal style, so solve the problem the manner that bes suits you
 - Don't worry about the aesthetics, the mark-up needs to be valid and usable but we don't care if it's ugly :smile:
-- Once you're done, zip the `src` directory of app and send it to  (mailto:angular_interview@anagramconsulting.com)<angular_interview@anagramconsulting.com> from an email address we can reach you at. Don't worry about the content of the mail, though if you can include your full (preferred) name in the body of the email, that would probably make things a little easier for us :smile:    
+- Once you're done, zip the `src` directory of app and send it to <angular_interview@anagramconsulting.com> from an email address we can reach you at. Don't worry about the content of the mail, though if you can include your full (preferred) name in the body of the email, that would probably make things a little easier for us :smile:    
 
 
 ## Development server
